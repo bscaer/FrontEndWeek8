@@ -1,3 +1,5 @@
+/* The style for the form class which encompasses everything in the body of the pages */
+/* The background is a gradient of red, yellow, and blue */
 .formClass {
     padding: 10;
     color: blue;
@@ -5,6 +7,9 @@
     width: 600;
 }
 
+/* div elements have a background color of powder blue and a width of 500 */
+/* Setting margin-left and margin-right to auto centers the div element 
+   within the gradient */
 div {
     background-color: powderblue;
     padding: 5;
@@ -15,6 +20,8 @@ div {
     margin-right:auto;
 }
 
+/* The h1 and h2 headers have a lightpink background color
+   and are centered in the gradient */
 h1, h2 {
     background-color: lightpink;
     padding: 5;
@@ -25,15 +32,19 @@ h1, h2 {
     margin-right:auto;
 }
 
+/* The images all have a width of 500 */
 #image {
     width: 500;
 }
 
+/* The a elements have a bold and large font */
 a {
     font-weight: bold;
     font-size:large;
 }
 
+/* The ul unordered list elements have a background color of burlywood 
+    and no bullets and are centered in the gradient */
 ul {
     background-color: burlywood;
     width: 470;
@@ -45,14 +56,17 @@ li {
     padding: 5;
 }
 
+/* The table elements are centered horizontally in the gradient */
 table {
-    table-layout: fixed;
     width: 510;
     margin-bottom:10;
     margin-left:auto;
     margin-right:auto;
   }
 
+/* The table header row with an id "headerRow" has a background
+  color of lightgoldenrodyellow, the text is center aligned, and
+  has a font that looks like it was typed on a typewriter */
 #headerRow {
     background-color: lightgoldenrodyellow;
     padding: 5;
@@ -61,6 +75,8 @@ table {
     font-family:'Courier New', Courier, monospace ;
 }
 
+/* The table rows with a class "tableRow" have a background color
+   of lightgray, the text is center-aligned, and the font is in italics */
 .tableRow {
     background-color: lightgray;
     padding: 5;
@@ -77,6 +93,8 @@ td {
     padding: 5;
 }
 
+/* The Baby Name fields all have the class "input" and have an 
+    extra-large Gothic font */
 .input {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
