@@ -1,0 +1,83 @@
+.formClass {
+    padding: 10;
+    color: blue;
+    background-image:linear-gradient(red, yellow, blue);
+    width: 600;
+}
+
+div {
+    background-color: powderblue;
+    padding: 5;
+    width: 500;
+    margin-top:10;
+    margin-bottom:10;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h1, h2 {
+    background-color: lightpink;
+    padding: 5;
+    width: 500;
+    text-align: center;
+    margin-bottom:10;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#image {
+    width: 500;
+}
+
+a {
+    font-weight: bold;
+    font-size:large;
+}
+
+ul {
+    background-color: burlywood;
+    width: 470;
+    margin: auto;
+    list-style-type: none; /* Remove bullets */
+}
+
+li {
+    padding: 5;
+}
+
+table {
+    table-layout: fixed;
+    width: 510;
+    margin-bottom:10;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+#headerRow {
+    background-color: lightgoldenrodyellow;
+    padding: 5;
+    width: 500;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+.tableRow {
+    background-color: lightgray;
+    padding: 5;
+    width: 500;
+    text-align: center;
+    font-style: italic;
+}
+
+th {
+    padding: 5;
+}
+
+td {
+    padding: 5;
+}
+
+.input {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
